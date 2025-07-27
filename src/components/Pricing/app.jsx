@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import SubscribeModal from '../Modal/app';
+import { IoMdCheckmark } from "react-icons/io";
 
 import './style.css'
 import '../../components/variable.css'
@@ -25,9 +26,9 @@ function Plans() {
                 <h2><span className="display-l">$0</span>/ month</h2>
                 <h4 className="body-m">Best for Small Teams or Individuals.</h4>
                 <ul>
-                  <li className="display-x"><i className="fa-solid fa-check"></i> Write feature details here</li>
-                  <li className="display-x"><i className="fa-solid fa-check"></i> Write feature details here</li>
-                  <li className="display-x"><i className="fa-solid fa-check"></i> Write feature details here</li>
+                  <li className="display-x"><IoMdCheckmark /> Write feature details here</li>
+                  <li className="display-x"><IoMdCheckmark /> Write feature details here</li>
+                  <li className="display-x"><IoMdCheckmark /> Write feature details here</li>
                 </ul>
                 <a onClick={() => setModalOpen(true)}><button className="display-x">Get Started</button></a>
               </div>
@@ -39,9 +40,9 @@ function Plans() {
                 <h2><span className="display-l">$19</span>/ month</h2>
                 <h4 className="body-m">Ideal for Growing Companies.</h4>
                 <ul>
-                  <li className="display-x"><i className="fa-solid fa-check"></i> Write feature details here</li>
-                  <li className="display-x"><i className="fa-solid fa-check"></i> Write feature details here</li>
-                  <li className="display-x"><i className="fa-solid fa-check"></i> Write feature details here</li>
+                  <li className="display-x"><IoMdCheckmark /> Write feature details here</li>
+                  <li className="display-x"><IoMdCheckmark /> Write feature details here</li>
+                  <li className="display-x"><IoMdCheckmark /> Write feature details here</li>
                 </ul>
                 <a onClick={() => setModalOpen(true)}><button className="display-x">Get Started</button></a>
               </div>
@@ -53,9 +54,9 @@ function Plans() {
                 <h2><span className="display-l">$49</span>/ month</h2>
                 <h4 className="body-m">Ultimate for Enterprise Solutions.</h4>
                 <ul>
-                  <li className="display-x"><i className="fa-solid fa-check"></i> Write feature details here</li>
-                  <li className="display-x"><i className="fa-solid fa-check"></i> Write feature details here</li>
-                  <li className="display-x"><i className="fa-solid fa-check"></i> Write feature details here</li>
+                  <li className="display-x"><IoMdCheckmark /> Write feature details here</li>
+                  <li className="display-x"><IoMdCheckmark /> Write feature details here</li>
+                  <li className="display-x"><IoMdCheckmark /> Write feature details here</li>
                 </ul>
                 <a 
                     onClick={() => setModalOpen(true)}>

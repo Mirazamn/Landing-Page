@@ -1,10 +1,13 @@
 import './style.css'
 import '../../components/variable.css'
 import '../../index.css'
-
-import {PhoneCall, EnvelopeSimple, twitter, behance, dribbble, instagram, UserImg} from '../../asstes/plan'
-
-
+import { FaPhoneAlt } from "react-icons/fa";
+import { IoMailOutline } from "react-icons/io5";
+import { FaInstagram } from "react-icons/fa";
+import { FaDribbble } from "react-icons/fa";
+import { FaBehance } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaUser } from "react-icons/fa";
 
 
 function Contacts() {
@@ -22,13 +25,13 @@ function Contacts() {
                 <div className="contact-details">
                   <a href="tel:+1234567890">
                     <h2 data-aos="fade-right" data-aos-delay="100" className="body-m flex">
-                      <img src={PhoneCall} alt="" /> +012 345 6789
+                      <FaPhoneAlt/> +012 345 6789
                     </h2>
                   </a>
 
                   <a href="mailto:hello@example.com">
                     <h2 data-aos="fade-right" data-aos-delay="200" className="body-m flex">
-                      <img src={EnvelopeSimple} alt="" /> hello@example.com
+                      <IoMailOutline /> hello@example.com
                     </h2>
                   </a>
 
@@ -38,16 +41,16 @@ function Contacts() {
                   <h3 className="display-xs">Connect with us</h3>
                   <div className="social-links flex">
                     <a href="https://instagram.com" target='_blank'>
-                      <img src={instagram} alt="" />
+                      <FaInstagram className='img'/>
                     </a>
                     <a href="https://dribbble.com" target='_blank'>
-                      <img src={dribbble} alt="" />
+                      <FaDribbble className='img'/>
                     </a>
                     <a href="https://behance.net" target='_blank'>
-                      <img src={behance} alt="" />
+                      <FaBehance className='img'/>
                     </a>
                     <a href="https://x.com" target='_blank'>
-                      <img src={twitter} alt="" />
+                      <FaTwitter className='img'/>
                     </a>
                   </div>
                 </div>
@@ -57,14 +60,14 @@ function Contacts() {
               <form className="flex">
                 <div data-aos="fade-up" className="field flex">
                   <label htmlFor="name">
-                    <img src={UserImg} alt="" />
+                    <FaUser />
                   </label>
                   <input type="text" id="name" placeholder="Full Name" required />
                 </div>
     
                 <div data-aos="fade-up" data-aos-delay="100" className="field flex">
                   <label htmlFor="email">
-                    <img src={EnvelopeSimple} alt="" />
+                    <IoMailOutline />
                   </label>
                   <input type="email" className="body-m" id="email" placeholder="Email" required />
                 </div>

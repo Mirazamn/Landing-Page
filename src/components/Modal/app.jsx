@@ -1,5 +1,8 @@
-import React from 'react';
 import './style.css'; 
+import { FaInstagram } from "react-icons/fa";
+import { FaDribbble } from "react-icons/fa";
+import { FaBehance } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
 
 const SubscribeModal = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
@@ -30,16 +33,16 @@ const SubscribeModal = ({ isOpen, onClose }) => {
         <p className="follow-text">Follow us</p>
         <div className="social-icons">
           <a href="https://instagram.com" target="_blank" rel="noreferrer">
-            <i className="fab fa-instagram"></i>
+            <FaInstagram />
           </a>
           <a href="https://dribbble.com" target="_blank" rel="noreferrer">
-            <i className="fab fa-dribbble"></i>
+            <FaDribbble />
           </a>
           <a href="https://behance.net" target="_blank" rel="noreferrer">
-            <i className="fab fa-behance"></i>
+            <FaBehance />
           </a>
           <a href="https://x.com" target="_blank" rel="noreferrer">
-            <i className="fab fa-twitter"></i>
+            <FaTwitter />
           </a>
         </div>
 

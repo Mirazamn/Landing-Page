@@ -1,9 +1,10 @@
 import '../variable.css'
 import '../../index.css'
 import './style.css'
+import { FaStar } from "react-icons/fa";
+import { FaRegStar } from "react-icons/fa";
 
-import {SarahK, MichaelL, LaurenM, StarIcon, EmptyStar
-} from '../../asstes/plan'
+import { SarahK, MichaelL, LaurenM } from '../../asstes/plan'
 
 
 
@@ -36,11 +37,11 @@ function Feedbacks() {
                   </p>
     
                   <div className="rating">
-                    <img src={StarIcon} alt="" />
-                    <img src={StarIcon} alt="" />
-                    <img src={StarIcon} alt="" />
-                    <img src={StarIcon} alt="" />
-                    <img src={StarIcon} alt="" />
+                    <FaStar/>
+                    <FaStar/>
+                    <FaStar/>
+                    <FaStar/>
+                    <FaStar/>
                   </div>
                 </main>
               </div>
@@ -61,11 +62,11 @@ function Feedbacks() {
                   </p>
     
                   <div className="rating">
-                    <img src={StarIcon} alt="" />
-                    <img src={StarIcon} alt="" />
-                    <img src={StarIcon} alt="" />
-                    <img src={StarIcon} alt="" />
-                    <img src={EmptyStar} alt="" />
+                    <FaStar/>
+                    <FaStar/>
+                    <FaStar/>
+                    <FaStar/>
+                    <FaRegStar />
                   </div>
                 </main>
               </div>
@@ -86,11 +87,11 @@ function Feedbacks() {
                   </p>
     
                   <div className="rating">
-                    <img src={StarIcon} alt="" />
-                    <img src={StarIcon} alt="" />
-                    <img src={StarIcon} alt="" />
-                    <img src={StarIcon} alt="" />
-                    <img src={StarIcon} alt="" />
+                    <FaStar/>
+                    <FaStar/>
+                    <FaStar/>
+                    <FaStar/>
+                    <FaStar/>
                   </div>
                 </main>
               </div>

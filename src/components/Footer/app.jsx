@@ -2,8 +2,10 @@ import './style.css'
 import '../../components/variable.css'
 import '../../index.css'
 
-import {Youtube, Instagram, Github, Linkedin
-} from '../../asstes/plan'
+import { FaYoutube } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 
 
 function Footer() {
@@ -13,16 +15,16 @@ function Footer() {
             <h5 className="body-s">© 2023 Anima’s Landing Page Ui Kit.</h5>
             <div className="f-social">
               <a href="https://www.youtube.com/" target='_blank'>
-                <img src={Youtube} alt="" />
+                <FaYoutube />
               </a>
               <a href="https://www.instagram.com/" target='_blank'>
-                <img src={Instagram} alt="" />
+                <FaInstagram />
               </a>
               <a href="https://github.com/" target='_blank'>
-                <img src={Github} alt="" />
+                <FaGithub />
               </a>
               <a href="https://www.linkedin.com/" target='_blank'>
-                <img src={Linkedin} alt="" />
+                <FaLinkedinIn />
               </a>
             </div>
           </div>

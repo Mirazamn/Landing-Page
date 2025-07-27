@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import SubscribeModal from '../Modal/app'
+import { FaArrowRightLong } from "react-icons/fa6";
 
 import './style.css'
 import '../../components/variable.css'
@@ -20,7 +21,7 @@ function GetLanding() {
               <p>Break the Figma limits and explore the endless possibilities with Anima.</p>
               <a onClick={() => setModalOpen(true)}>
                 <button className="display-x flex">
-                  Get Started <i className="fa-solid fa-arrow-right"></i>
+                  Get Started <FaArrowRightLong />
                 </button>
               </a>
             </div>

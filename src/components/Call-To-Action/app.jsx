@@ -1,5 +1,9 @@
 import { useState } from 'react'
 import SubscribeModal from '../Modal/app'
+<<<<<<< HEAD
+=======
+import { FaArrowRightLong } from "react-icons/fa6";
+>>>>>>> 2171d21 (First commit)
 
 import '../Hero/style.css'
 import '../../components/variable.css'
@@ -29,7 +33,11 @@ function CTA() {
                     onClick={() => setModalOpen(true)}>
                   <button className="cta display-x">
                     Get Started
+<<<<<<< HEAD
                     <i className="fa-solid fa-arrow-right"></i>
+=======
+                    <FaArrowRightLong/>
+>>>>>>> 2171d21 (First commit)
                   </button>
                 </a>
               </div>
