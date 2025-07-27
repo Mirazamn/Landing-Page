@@ -5,7 +5,7 @@ import LaurenM from './images/Lauren-M.svg' // Feedbacks
 import GetLandingImg from './images/get-landing.svg' // Get Landing
 import Visuals from './images/Visuals.svg' // Hero
 import AirBnb from './images/airbnb.svg' // Partners
-import Google from './images/google.svg' // Partners =
+import Google from './images/google.svg' // Partners 
 import Amazon from './images/amazon.svg' // Partners
 import Microsoft from './images/microsoft.svg' // Partners
 import Fedex from './images/fedex.svg' // Partners
